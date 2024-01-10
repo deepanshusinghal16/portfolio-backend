@@ -1,6 +1,7 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const mailSender = require('./mailSender');
+const cors = require('cors');
 const { contactUsEmail } = require('./ContactFormRes');
 dotenv.config();
 const app = express();
